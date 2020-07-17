@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt Adam Rosowicz</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script>
+      console.log('stop transition on load');
+    </script>
+  </head>
+  <body>
+    <div class="page_wrapper">
+      <section class="header">
+        <div class="header__title_container">
+          <h1 class="header__title_inner">Projekt WSEI</h1>
+        </div>
+        <div class="header__button_container">
+          <a href="../index.html" class="header__button"><img src="../images/home.svg" /><span class="header__button__text">Home</span></a>
+          <a href="video.html" class="header__button"><img src="../images/video.svg" /><span class="header__button__text">Wideo</span></a>
+          <a href="audio.html" class="header__button header__button--active"><img src="../images/audio.svg" /><span class="header__button__text">Audio</span></a>
+          <a href="todo.html" class="header__button"><img src="../images/todo.svg" /><span class="header__button__text">To Do</span></a>
+        </div>
+      </section>
+      <section class="content">
+        <div class="content__container">
+          <h2 class="content__heading">Audio</h2>
+          <p class="content__paragraph">
+            <audio class="content__audio" controls>
+              <source src="../assets/audio.mp3" type="audio/mp3" />
+              Your browser does not support the audio element.
+            </audio>
+          </p>
+        </div>
+      </section>
+      <section class="footer"><span class="footer__flair">Adam Rosowicz &copy;</span></section>
+    </div>
+  </body>
+</html>
